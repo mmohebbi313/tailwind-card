@@ -17,7 +17,7 @@ A sleek and responsive card component built with **Tailwind CSS**. This componen
 
 To see the live design, **click the link below**:
 
-👉 [Click here to view the card design](https://your-demo-link.com)
+👉 [Click here to view the card design](https://mmohebbi313.github.io/tailwind-card/)
 
 > Replace the above link with your actual demo URL.
 
@@ -25,7 +25,7 @@ To see the live design, **click the link below**:
 
 ## 🛠️ Technologies Used
 
-- [Tailwind CSS](https://mmohebbi313.github.io/tailwind-card/)
+- [Tailwind CSS](https://tailwindcss.com/)
 - HTML5
 - Optional: React / Vue / Alpine.js (if applicable)
 
