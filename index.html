@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="main.css" rel="stylesheet" />
+  <title>Document</title>
+</head>
+<body class="grid place-items-center min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
+  <div class="">
+    <button id="toggleDark" class="bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 px-3 py-1 rounded-md shadow">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+      </svg>      
+    </button>
+  </div>
+
+  <div class="lg:max-w-90 sm:max-w-70 max-w-50 shadow-lg rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 transition-colors duration-300">
+    <img src="./public/img/IMG_20250309_114628.jpg" alt="my-img" class="rounded-t-xl" />
+    <div class="m-4 space-y-3">
+      <h1 class="font-bold font-serif text-gray-900 dark:text-gray-400 lg:text-lg sm:text-sm text-xs">
+        I am Mohammad Mohebbi a Front-end Developer
+      </h1>
+      <p class="font-serif text-gray-900 dark:text-gray-300 lg:text-lg sm:text-sm text-xs">
+        I'm a front-end developer currently learning and growing in the field. So far, I've gained experience with HTML,
+        CSS, Tailwind, JavaScript, React, Git, and GitHub. I'm passionate about building modern, responsive web interfaces 
+        and always eager to learn more.
+      </p>
+      <a href="#" class="inline-flex bg-amber-400 justify-center transition-colors duration-200 items-center rounded-md p-1 text-gray-700 hover:text-black hover:bg-amber-500">
+        <p class="mb-1 pl-1 lg:text-lg sm:text-sm text-xs">Read more</p>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" lg:size-5 sm:size-4 size-3">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    const toggle = document.getElementById('toggleDark');
+    const html = document.documentElement;
+
+    toggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
